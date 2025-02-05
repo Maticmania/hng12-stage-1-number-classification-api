@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import { getDigitSum, getFunFact, getProperties, isPerfect, isPrime } from "./src/Helpers/page.js";
+import { getDigitSum, getFunFact, getProperties, isPerfect, isPrime } from "./src/helpers/classifyNumber.js";
 
 dotenv.config();
 const PORT = process.env.PORT || 3040;
