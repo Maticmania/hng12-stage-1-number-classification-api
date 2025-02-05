@@ -9,6 +9,10 @@ const PORT = process.env.PORT || 3040;
 const app = express();
 app.use(cors());
 
+app.get('/', (req, res) => {
+    res.json({message:'Welcome to the Number Classification API!', instruction: "navigate to /api/classify-number?number=1"});
+})
+
 app.get("/api/classify-number", async (req, res) => {
   const { number } = req.query;
   if (!number || isNaN(number)) {
