@@ -19,6 +19,7 @@ GET /api/classify-number?number=<integer>
 ```js
 GET /api/classify-number?number=371
 ```
+[https://hng12-stage-1-number-classification-api.onrender.com/api/classify-number?number=371](https://hng12-stage-1-number-classification-api.onrender.com/api/classify-number?number=371)
 ### Success Response (`200 OK`)
 ```json
 {
